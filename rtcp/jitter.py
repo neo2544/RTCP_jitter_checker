@@ -913,7 +913,7 @@ def StartRtpAnalysis(packet_file_name, label):
         dm_ro
         # plt.gcf().subplots_adjust(bottom=0.20)
         plt.tight_layout()
-        plt.show()
+        # plt.show()
 
         fig.savefig(imgdata, format="png", bbox_inches='tight')
         imgdata.seek(0)

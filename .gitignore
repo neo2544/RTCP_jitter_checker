@@ -3,4 +3,4 @@ data/
 .idea/
 rtcp/__pycache__/
 venv/
-/rtcp/*.xlsx
+*.xlsx
